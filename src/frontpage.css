@@ -1,0 +1,156 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Full Page Background */
+.container-f {
+    background: url("bgimage.jpeg") no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+/* Navbar Styling */
+.navbar-f {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-f {
+    display: flex;
+    align-items: center;
+    color: white; /* Keep text color white for contrast */
+    font-size: x-large;
+    font-weight: bold;
+    background-color: black !important; /* Force black background */
+    padding: 5px 10px;
+    border-radius: 5px; /* Optional */
+}
+.logo-f img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.nav-links-f a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.nav-links-f {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Adjust spacing between elements */
+}
+.nav-links-f button {
+    background: gray;
+    color: white;
+    padding: 7px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: medium;
+    width: 77px;
+    height:40px;
+    margin-top: -5px;
+    font-size: 15px;
+    justify-content: center;
+}
+/* .login-btn-f {
+    margin-top: -10px;
+    background: gray;
+    color: white;
+    padding: 7px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width:80px;
+    height:40px;
+    font-size: medium;
+    justify-content: center;
+    margin-left:350px ;
+    margin-bottom: -100px;
+} */
+
+/* Centered Content */
+.content-task-f {
+    text-align: center;
+    background: rgba(251, 230, 230, 0.3);
+    padding: 40px;
+    border-radius: 10px;
+    width: 400px;
+    justify-content: center;
+    font-size:larger;
+}
+
+/* User Icon */
+.user-icon-f img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #d4d4d4;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Buttons */
+.buttons-f {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.btn1-f {
+    padding: 12px 20px;
+    border: none;
+    background: black;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    justify-content: center;
+    margin-left: 110px;
+}
+.btn2-f {
+    padding: 12px 20px;
+    border: none;
+    background: black;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    justify-content: center;
+    margin-left: 110px;
+    margin-top: 0px;
+}
+/* .signin-btn-f{
+    margin-top: 60px;
+    background: gray;
+    color: white;
+    padding: 7px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width:80px;
+    height:40px;
+    font-size: medium;
+    justify-content: center;
+    margin-left:250px ;
+    margin-bottom: -10px;
+} */

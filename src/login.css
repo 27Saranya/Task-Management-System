@@ -1,0 +1,116 @@
+.container-login {
+    background: url('bgimage.jpeg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-login {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: #010000;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.login-btn-login {
+    background: rgb(7, 1, 1);
+    color: rgb(245, 242, 242);
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+    margin-left: 200px;
+    margin-bottom: -1px;
+    margin-top: -23px;
+    font-size:medium;
+}
+
+.content-log-login {
+    text-align: center;  /* Ensures text and inline elements are centered */
+    background: rgba(255, 255, 255, 0.7);
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;   /* Enables flexbox */
+    flex-direction: column;  /* Aligns children in a column */
+    align-items: center; 
+    width:400px;
+    height:350px;
+    margin-top: 40px;
+}
+
+.user-icon-login {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;  /* Centers vertically */
+    width: 100%;  
+}
+
+.user-icon-login img {
+    width: 60px;
+    margin-bottom: 10px;
+    border-radius: 100%;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* .buttons-login {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+} */
+
+.btn-Alogin {
+    margin-top: -10px;
+    width:300px;
+    height: 50px;
+    margin-right: -300px;
+    justify-content: center;
+}
+.btn-Ulogin {
+    width:300px;
+    height: 50px;
+    margin-top:20px;
+    margin-right: 0px;
+    justify-content: center;
+}
+
+.btn-login:hover {
+    background: gray;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    color: white; /* Keep text color white for contrast */
+    font-size: x-large;
+    font-weight: bold;
+    background-color: black !important; /* Force black background */
+    padding: 5px 10px;
+    border-radius: 5px; /* Optional */
+}
+.logo img {
+    width: 40px;
+    margin-right: 10px;
+}
+.nav-links-login a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    margin-left: 0px;
+    margin-top: 50px;
+}

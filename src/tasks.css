@@ -1,0 +1,230 @@
+/* Task Board Container */
+body{
+    background-color: #e6d4d4d9;
+  }
+  .task-board-container {
+    display: flex;
+    height: 100vh;
+    background-color: #e6d4d4d9; /* Change this to your preferred color */
+  }
+  
+    
+    /* Sidebar */
+    .sidebar-tasks {
+      height:975px;
+      width: 250px;
+      background-color: #ffffff;
+      color: rgb(11, 10, 10);
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .sidebar .logo-tasks {
+      background-color: #ffffff !important;
+      color: #333;
+      font-size: 30px;
+      margin-bottom:20px;
+    }
+    
+    .sidebar-tasks ul {
+      list-style: none;
+      padding: 0;
+    }
+    
+    .sidebar-tasks li {
+      padding: 15px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 18px;
+    }
+    
+    .sidebar-tasks li.active {
+      color: #f4f5fa;
+      background-color: #2c1717;
+      border-radius: 5px;
+    }
+    
+    /* Main Task Section */
+    .task-main-tasks {
+      background-color: #e6d4d4d9;
+      flex: 1;
+      padding: 20px;
+    }
+    
+    /* Header */
+    .task-header-tasks {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .icons-tasks {
+      display: flex;
+      gap: 15px;
+      margin-right: 10px;
+    }
+    
+    .icon-tasks {
+      font-size: 24px;
+      cursor: pointer;
+    }
+    
+    /* Task Filters */
+    .task-filters-tasks {
+      margin-top: 20px;
+    }
+    
+    .task-filters-tasks button {
+      background: black;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      margin-right: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+    /* Task Grid */
+    .task-grid-tasks {
+      background-color: #e6d4d4d9;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    
+    .task-card-tasks {
+      background: white;
+      padding: 10px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    .task-card-tasks img {
+      width: 100%;
+      border-radius: 5px;
+      height: 120px;
+      object-fit: cover;
+    }
+    
+    .task-info-tasks {
+      padding: 10px;
+    }
+    
+    .task-info-tasks h3 {
+      margin: 0;
+      font-size: 18px;
+    }
+    
+    .task-info-tasks p {
+      color: gray;
+      font-size: 14px;
+    }
+    
+    /* Add Task Button */
+    .add-task-tasks {
+      justify-content: center;
+      height: 50px;
+      width: 100px;
+      margin-left: 420px;
+      background: #ccc;
+      color: black;
+      border: none;
+      padding: 10px 10px;
+      margin-top: 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  /* Sidebar Icons */
+  .icon-img-tasks {
+      width: 24px;
+      height: 24px;
+      margin-right: 10px;
+      margin-left: 5px;
+      margin-bottom: 2px;
+    }
+    .icon-add-img-tasks{
+      margin-top: -5px;
+      margin-left: -50px;
+    }
+    .text-tasks{
+      margin-top: -25px;
+      font-size: medium;
+      margin-right: -25px;
+    }
+    
+    /* Notification and Profile Icons */
+    .icon-tasks {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      cursor: pointer;
+      margin-right: 10px;
+      margin-left: 15px;
+    }
+    
+    .icon1-tasks{
+        width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      cursor: pointer;
+      margin-right: 0px;
+      margin-left: 15px;
+    }
+    
+    /* Task Card Images */
+    .task-card-tasks img {
+      width: 100%;
+      height: 150px; /* Maintain aspect ratio */
+      object-fit: cover;
+      border-radius: 5px;
+    }
+    
+    /* Add Task Button Icon */
+    .add-task-tasks img {
+      width: 24px;
+      height: 24px;
+      margin-right: 5px;
+    }
+    .tasks-tasks{
+      width:24px;
+      height:24px;
+      margin-right: 10px;
+    }
+    .logoimage-tasks{
+      width: 50px;
+      height:50px;
+    }
+    .logotext-tasks{
+      top:-18px;
+      position: relative;
+      font-size: x-large;
+    }
+    .active-tasks{
+      background-color: #2c1717;
+    }
+    .button-list-tasks
+  {
+    width: 250px;
+    height: 50px;
+    margin-top: 5px;
+    background-color: #ffffff;
+    color: #2c1717;
+    border: #f8f5f5;
+  }
+  .button1-list-tasks
+  {
+    width: 250px;
+    height: 50px;
+    margin-top: 1px;
+    background-color: #1b1919;
+    color: #f8f5f5;
+    border: #1b1919;
+  }
+  .button1-list-tasks:hover{
+    background-color: #2c1717;
+    color:#f4f5fa;
+  }
